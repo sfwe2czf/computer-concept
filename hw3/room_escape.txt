@@ -1,0 +1,35 @@
+VERSION 3 ;
+
+ROOM ROOM614
+  THEME travel ;
+  LEVEL 3 ;
+  TIME 50 ;
+  SIZE 5 BY 5 ;
+  SRC
+    LEVEL1 0 1 ;
+  DEST
+    LEVEL3 3 4 ;
+  OBS
+    LEVEL1 ;
+      3.2 3.7 4.5 1.0 ;
+    LEVEL3 ;
+      3.1 0.6 4.9 0.2 ;
+      0.0 4.1 1.5 2.0 ;
+END ROOM614
+
+ROOM ROOM653-3
+  THEME ghost ;
+  LEVEL 4 ;
+  TIME 70 ;
+  SIZE 10 BY 15 ;
+  SRC
+    LEVEL4 9 14 ;
+  DEST
+    LEVEL1 3 4 ;
+  OBS
+    LEVEL2 ;
+      3.2 3.7 4.5 1.0 ;
+    LEVEL4 ;
+      3.1 0.6 4.9 0.2 ;
+      0.0 4.1 1.5 2.0 ;
+END ROOM653-3
